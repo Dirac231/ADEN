@@ -7,9 +7,8 @@ ADEN is a local enumeration script for active directory environments, it is a ca
 - Get-GPPPassword
 - PowerUpSQL
 
-It is to be used as an all-in-one enumeration routine to spin off when you are in a domain user's session.//
+It is to be used as an all-in-one enumeration routine to spin off when you are in a domain user's session.\
 Big credits to all the authors of the above mentioned tools! You are awesome.
-
 
 ## How to use?
 From a domain's user powershell session:
