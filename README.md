@@ -8,7 +8,7 @@ ADEN is a local enumeration script for active directory environments, it is a ca
 - PowerUpSQL
 
 
-It is to be used as an all-in-one enumeration script to use when you are in a domain user's session. I've also included an obfuscated version to bypass AMSI.\
+It is to be used as an all-in-one enumeration script to use when you are in a domain user's session.\
 \
 Big credits to all the authors of the above mentioned tools! You are awesome.
 
