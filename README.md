@@ -32,3 +32,13 @@ ADEN currently supports the following attack scenarios:
 - DACL Abuse
 - Local Admin Access
 - GPP / LAPS / LDAP Password exfiltration
+- Recursive search of privileged groups
+
+It also enumerates the following, non-directly attack-correlated information:
+
+- Current/Root Domain Info
+- Current user memberships and privileges
+- Kerberos and Password Policies
+- Trust relationships
+- Domain users, groups, computers, fileservers, OUs
+- Readable Shares
