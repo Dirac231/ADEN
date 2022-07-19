@@ -5,7 +5,6 @@ ADEN is a local enumeration script for active directory environments, it is a ca
 - PowerMad
 - ASREPRoast
 - Get-GPPPassword
-- PowerUpSQL
 - New-GPOImmediateTask
 - Invoke-Rubeus
 
@@ -30,8 +29,6 @@ ADEN currently supports the following attack scenarios:
 
 - ASREPRoasting / Kerberoasting
 - Unconstrained / Constrained / Resource Based Delegations
-- LSASS Dumping
-- Linked MSSQL Instances Abuse
 - DACL Abuse
 - Local Admin Access
 - GPP / LAPS / LDAP Password exfiltration
