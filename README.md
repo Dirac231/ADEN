@@ -27,7 +27,7 @@ Keep in mind you also have access to all the functions of the above mentioned sc
 ADEN currently supports the following attack scenarios:
 
 - ASREPRoasting / Kerberoasting
-- Unconstrained / Constrained / Resource Based Delegations
+- Delegation Abuse searching
 - DACL Abuse
 - Local Admin Access
 - GPP / LAPS / LDAP Password exfiltration
