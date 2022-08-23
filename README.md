@@ -2,7 +2,6 @@
 ADEN is a local enumeration script for active directory environments, it is a merge of several enumeration and exploitation projects:
 
 - PowerView
-- PowerMad
 - ASREPRoast
 - Get-GPPPassword
 - New-GPOImmediateTask
